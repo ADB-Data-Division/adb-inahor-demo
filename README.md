@@ -126,6 +126,7 @@ Replace `<YOUR-GEE-PROJECT>` and `<YOUR-FOLDER>` with your actual GEE project an
 
 - **INAHOR tool:** Developed by the [Japan Aerospace Exploration Agency (JAXA)](https://www.jaxa.jp/). INAHOR is part of JAXA's Earth observation applications for food security monitoring in the Asia-Pacific region.
 - **GEE script:** Originally presented by **Pegah Hashemvand Khiabani** and **Furuta Naoki** ([RESTEC](https://www.restec.or.jp/)) at the *Workshop on Harnessing Remote Sensing for Rice Mapping in Viet Nam* (May 2024). Adapted for this demo.
+- **Demo preparation:** [Anthony Burgard](https://development.asia/expert/anthony-burgard) (ADB) supported the preparation of demo materials, including the synthetic ground truth dataset and GEE asset setup.
 - **Satellite data:** [ALOS-2 PALSAR-2 ScanSAR](https://developers.google.com/earth-engine/datasets/catalog/JAXA_ALOS_PALSAR-2_Level2_2_ScanSAR) (JAXA) and [Sentinel-2](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2) (ESA/Copernicus).
 - **Ancillary data:** [MODIS Water Mask](https://developers.google.com/earth-engine/datasets/catalog/MODIS_MOD44W_MOD44W_005_2000_02_24) (NASA) and [ESA WorldCover v200](https://developers.google.com/earth-engine/datasets/catalog/ESA_WorldCover_v200) (ESA).
 - **Ground truth (synthetic):** Generated from the [JAXA High-Resolution Land Use and Land Cover Map (2020)](https://www.eorc.jaxa.jp/ALOS/en/dataset/lulc_e.htm).
