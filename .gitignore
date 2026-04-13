@@ -1,0 +1,17 @@
+# Claude Code
+.claude/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+
+# R/Python artifacts
+.Rhistory
+.RData
+__pycache__/
+*.pyc

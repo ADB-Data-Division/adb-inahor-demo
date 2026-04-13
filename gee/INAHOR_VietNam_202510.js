@@ -8,18 +8,22 @@
 \
 // [0] Define the Area of Interest (AOI)\
 \
-// IMPORTANT! Change table name based on your uploaded asset\
-var AOI=ee.FeatureCollection("projects/ee-anthony54534/assets/Training_NSOVietNam_2025-10/02_AnGiang_Districts");\
+// IMPORTANT! Change the asset path below to match your GEE asset location.\
+// Upload the shapefile from data-raw/AdminBoundaty_AnGiang_District/ to your GEE assets,\
+// then replace the path below (e.g., "projects/YOUR-GEE-PROJECT/assets/YOUR-FOLDER/02_AnGiang_Districts").\
+var AOI=ee.FeatureCollection("projects/<YOUR-GEE-PROJECT>/assets/<YOUR-FOLDER>/02_AnGiang_Districts");\
 \
 // [1] Import the training data\
 \
-// IMPORTANT! Change table name based on your uploaded asset\
-var training_data = ee.FeatureCollection("projects/ee-anthony54534/assets/Training_NSOVietNam_2025-10/GroundTruth");\
+// IMPORTANT! Change the asset path below to match your GEE asset location.\
+// Upload the shapefile from data-raw/DEMO_RandomGT_AnGiang_20260413/ to your GEE assets,\
+// then replace the path below (e.g., "projects/YOUR-GEE-PROJECT/assets/YOUR-FOLDER/an_giang_gt_500").\
+var training_data = ee.FeatureCollection("projects/<YOUR-GEE-PROJECT>/assets/<YOUR-FOLDER>/an_giang_gt_500");\
 \
 // [2] Import the administrative boundary data\
 \
-// IMPORTANT! Change table name based on your uploaded asset\
-var admnFeat = ee.FeatureCollection("projects/ee-anthony54534/assets/Training_NSOVietNam_2025-10/02_AnGiang_Districts");\
+// IMPORTANT! Change the asset path below to match your GEE asset location (same as AOI above).\
+var admnFeat = ee.FeatureCollection("projects/<YOUR-GEE-PROJECT>/assets/<YOUR-FOLDER>/02_AnGiang_Districts");\
 \
 //[3] Specify the period for ALOS-2 data\
 var Start_Date = '2024-04-01';\
