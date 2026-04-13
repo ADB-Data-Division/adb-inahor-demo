@@ -19,7 +19,7 @@ var training_data = ee.FeatureCollection("projects/ee-tmasaki040685/assets/imf-i
 // [2] Import the administrative boundary data
 
 // IMPORTANT! Change table name based on your uploaded asset
-var admnFeat = ee.FeatureCollection("projects//ee-tmasaki040685/assets/imf-inahor-demo/02_AnGiang_Districts");
+var admnFeat = ee.FeatureCollection("projects/ee-tmasaki040685/assets/imf-inahor-demo/02_AnGiang_Districts");
 
 //[3] Specify the period for ALOS-2 data
 var Start_Date = '2024-04-01';
