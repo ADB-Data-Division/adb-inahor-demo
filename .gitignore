@@ -1,6 +1,9 @@
 # Claude Code
 .claude/
 
+# Presentation slides
+doc/*.pptx
+
 # OS files
 .DS_Store
 Thumbs.db
